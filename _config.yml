@@ -28,7 +28,13 @@ url: "https://ibreznik.com" # the base hostname & protocol for your site, e.g. h
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
   - jekyll-remote-theme
 # Exclude from processing.
 # The following items will not be processed, by default.
